@@ -12,12 +12,12 @@ Ecommerce项目包括：
 
 |代码库|用途|地址|
 | --- | --- | --- |
-|ecommerce-order-service|Order服务|[https://github.com/e-commerce-sample/ecommerce-order-service](https://github.com/e-commerce-sample/ecommerce-order-service)|
-|ecommerce-product-service|Product服务|[https://github.com/e-commerce-sample/ecommerce-product-service](https://github.com/e-commerce-sample/ecommerce-product-service)|
-|ecommerce-inventory-service|Inventory服务|[https://github.com/e-commerce-sample/ecommerce-inventory-service](https://github.com/e-commerce-sample/ecommerce-inventory-service)|
-|ecommerce-shared-model|共享模型，不含Spring|[https://github.com/e-commerce-sample/ecommerce-shared-model](https://github.com/e-commerce-sample/ecommerce-shared-model)|
-|ecommerce-spring-common|Spring共享基础配置|[https://github.com/e-commerce-sample/ecommerce-spring-common](https://github.com/e-commerce-sample/ecommerce-spring-common)|
-|ecommerce-devops|基础设施|[https://github.com/e-commerce-sample/ecommerce-devops](https://github.com/e-commerce-sample/ecommerce-devops)|
+|ecommerce-order-service|Order服务|[https://github.com/e-commerce-mock/ecommerce-order-service](https://github.com/e-commerce-mock/ecommerce-order-service)|
+|ecommerce-product-service|Product服务|[https://github.com/e-commerce-mock/ecommerce-product-service](https://github.com/e-commerce-mock/ecommerce-product-service)|
+|ecommerce-inventory-service|Inventory服务|[https://github.com/e-commerce-mock/ecommerce-inventory-service](https://github.com/e-commerce-mock/ecommerce-inventory-service)|
+|ecommerce-shared-model|共享模型，不含Spring|[https://github.com/e-commerce-mock/ecommerce-shared-model](https://github.com/e-commerce-mock/ecommerce-shared-model)|
+|ecommerce-spring-common|Spring共享基础配置|[https://github.com/e-commerce-mock/ecommerce-spring-common](https://github.com/e-commerce-mock/ecommerce-spring-common)|
+|ecommerce-devops|基础设施|[https://github.com/e-commerce-mock/ecommerce-devops](https://github.com/e-commerce-mock/ecommerce-devops)|
 
 # 技术选型
 Spring Boot、Gradle、MySQL、Junit 5、Rest Assured、Docker、RabbitMQ/Kafka
