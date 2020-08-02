@@ -1,36 +1,37 @@
-### 项目简介
-- 该项目为Ecommerce系统所有服务共享的Spring基础配置，包含:
+### Project Intro
+- This project is the Spring basic configuration shared by all services of the Ecommerce system, including:
 
-|功能|所在目录|
+|Function|Directory|
 | --- | --- |
-|Spring Boot项目基础配置|`src/main/java/com/ecommerce/spring/common`|
-|通用异常处理|`src/main/java/com/ecommerce/spring/common/exception`|
-|领域事件相关|`src/main/java/com/ecommerce/spring/common/event`|
+|Spring Boot project basic configuration|`src/main/java/com/ecommerce/spring/common`|
+|General Exception Handling|`src/main/java/com/ecommerce/spring/common/exception`|
+|Field event related|`src/main/java/com/ecommerce/spring/common/event`|
 
 
-Ecommerce项目包括：
+Ecommerce Project includes：
 
-|代码库|用途|地址|
+|Repo|Purpose|Link|
 | --- | --- | --- |
-|ecommerce-order-service|Order服务|[https://github.com/e-commerce-mock/ecommerce-order-service](https://github.com/e-commerce-mock/ecommerce-order-service)|
-|ecommerce-product-service|Product服务|[https://github.com/e-commerce-mock/ecommerce-product-service](https://github.com/e-commerce-mock/ecommerce-product-service)|
-|ecommerce-inventory-service|Inventory服务|[https://github.com/e-commerce-mock/ecommerce-inventory-service](https://github.com/e-commerce-mock/ecommerce-inventory-service)|
-|ecommerce-shared-model|共享模型，不含Spring|[https://github.com/e-commerce-mock/ecommerce-shared-model](https://github.com/e-commerce-mock/ecommerce-shared-model)|
-|ecommerce-spring-common|Spring共享基础配置|[https://github.com/e-commerce-mock/ecommerce-spring-common](https://github.com/e-commerce-mock/ecommerce-spring-common)|
-|ecommerce-devops|基础设施|[https://github.com/e-commerce-mock/ecommerce-devops](https://github.com/e-commerce-mock/ecommerce-devops)|
+|ecommerce-order-service|Order service|[https://github.com/e-commerce-mock/ecommerce-order-service](https://github.com/e-commerce-mock/ecommerce-order-service)|
+|ecommerce-order-query-service|Order query service|[https://github.com/e-commerce-mock/ecommerce-order-query-service](https://github.com/e-commerce-mock/ecommerce-order-query-service)|
+|ecommerce-product-service|Product service|[https://github.com/e-commerce-mock/ecommerce-product-service](https://github.com/e-commerce-mock/ecommerce-product-service)|
+|ecommerce-inventory-service|Inventory service|[https://github.com/e-commerce-mock/ecommerce-inventory-service](https://github.com/e-commerce-mock/ecommerce-inventory-service)|
+|ecommerce-shared-model|Pure Shared model without Spring context|[https://github.com/e-commerce-mock/ecommerce-shared-model](https://github.com/e-commerce-mock/ecommerce-shared-model)|
+|ecommerce-spring-common|Shared basic Spring configuration|[https://github.com/e-commerce-mock/ecommerce-spring-common](https://github.com/e-commerce-mock/ecommerce-spring-common)|
+|ecommerce-devops|Infrastructure|[https://github.com/e-commerce-mock/ecommerce-devops](https://github.com/e-commerce-mock/ecommerce-devops)|
 
-# 技术选型
+# Tech stacks
 Spring Boot、Gradle、MySQL、Junit 5、Rest Assured、Docker、RabbitMQ/Kafka
 
 
-### 命令行用法：
+### Command line:
 
-|命令|用途|
+|Command|Use|
 | --- | --- |
-|`./idea.sh`|生成IntelliJ工程文件|
-|`./local-build.sh`|本地构建|
-|`./publish.sh`|发布到mymavenrepo.com仓库，发布新版本时需要修改`gradle.properties`文件中的`version`变量|
+|`./idea.sh`|Generate IntelliJ project file|
+|`./local-build.sh`|build the project in local|
+|`./publish.sh`|Publish to the mymavenrepo.com warehouse, you need to modify the `version` variable in the `gradle.properties` file when publishing a new version|
 
-- 本项目使用`mymavenrepo.com`作为maven发布仓库:[网站地址](https://mymavenrepo.com/app/repos/F0lRvilYH123TUeMr5GN/)
-- 发布时使用的URL: https://mymavenrepo.com/repo/Cd07WrKAtJ9Kq7PBaTuf/
-- 依赖时使用的URL: https://mymavenrepo.com/repo/2w5k9sU2AsKfaYehyqno/
+- This project uses `mymavenrepo.com` as the maven release repository:[Website address](https://mymavenrepo.com/app/repos/F0lRvilYH123TUeMr5GN/)
+- URL used when publishing: https://mymavenrepo.com/repo/Cd07WrKAtJ9Kq7PBaTuf/
+- URL used for dependency: https://mymavenrepo.com/repo/2w5k9sU2AsKfaYehyqno/
